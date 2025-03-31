@@ -186,4 +186,78 @@ export const mockAccounts: Account[] = [
       },
     ]
   },
+   {
+    account_id: 'ACC003',
+    holder: {
+      firstName: 'Kijan Coryaba',
+      lastName: '',
+      mobileNumber: '***-***-***',
+      email: 'k@gmail.com',
+      createdOn: '3/31/2025', // m/d/y
+      username: 'Kingskid123@',
+      password: 'Promise01@90'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: true,
+      account_number: true,
+      balance_usd: 4650000.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '0317',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 31, 2025',
+        description: 'Postpaid - XXXXXX2526',
+        status: 'Success',
+        amount_usd: 60000.00
+      },
+      {
+        dateTime: 'March 31, 2025',
+        description: 'Discover bills - XXXXXX3838',
+        status: 'Success',
+        amount_usd: 30000.00
+      },
+      {
+        dateTime: 'January 10, 2025',
+        description: 'Transfer to Kyler Micheal - XXXXXX9469',
+        status: 'Success',
+        amount_usd: -20000.00
+      },
+      {
+        dateTime: 'October 28, 2024',
+        description: 'Transfer to The part school of Baltimore - XXXXXX8468',
+        status: 'Success',
+        amount_usd: -52000.00
+      },
+      {
+        dateTime: 'October 25, 2024',
+        description: 'Transfer from Emily Rose - XXXXXX1277',
+        status: 'Success',
+        amount_usd: 3000.00
+      },
+      {
+        dateTime: 'October 25, 2024',
+        description: 'Starbucks - XXXXXX4783',
+        status: 'Success',
+        amount_usd: -35.99
+      },
+      {
+        dateTime: 'October 25, 2024',
+        description: 'Transfer to Micheal Daniel - XXXXXX7389',
+        status: 'Success',
+        amount_usd: -250.00
+      },
+      {
+        dateTime: 'October 24, 2024',
+        description: 'Transfer from Olivia Marir - XXXXXX7389',
+        status: 'Success',
+        amount_usd: 1870.00
+      },
+    ]
+  },
 ];
