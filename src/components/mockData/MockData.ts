@@ -292,7 +292,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'April 24, 2025',
-        description: 'Vat Tax - XXXXXX4838',
+        description: 'Vat Fee - XXXXXX4838',
         status: 'Success',
         amount_usd: -5.0
       },
