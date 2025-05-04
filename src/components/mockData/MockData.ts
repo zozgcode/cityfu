@@ -309,5 +309,55 @@ export const mockAccounts: Account[] = [
         amount_usd: 10.0
       },
     ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      firstName: 'Kelly Radosevich',
+      lastName: '',
+      mobileNumber: '***-***-***',
+      email: 'kellerbabe@aol.com',
+      createdOn: '5/4/2025', // m/d/y
+      username: 'kellyradose',
+      password: 'Rosevichcr25'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: true,
+      account_number: true,
+      balance_usd: 500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '0317',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'May 2, 2025',
+        description: 'Credit from Chase rice management - XXXXXX2526',
+        status: 'Success',
+        amount_usd: 500000.0
+      },
+      {
+        dateTime: 'April 24, 2025',
+        description: 'Vat Fee - XXXXXX4838',
+        status: 'Success',
+        amount_usd: -5.0
+      },
+      {
+        dateTime: 'April 24, 2025',
+        description: 'Charges - XXXXXX6453',
+        status: 'Success',
+        amount_usd: -5.0
+      },
+      {
+        dateTime: 'April 24, 2025',
+        description: 'Opening Balance - XXXXXX4838',
+        status: 'Success',
+        amount_usd: 10.0
+      },
+    ]
   }
 ];
