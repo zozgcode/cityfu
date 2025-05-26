@@ -341,19 +341,19 @@ export const mockAccounts: Account[] = [
         amount_usd: 500000.0
       },
       {
-        dateTime: 'April 24, 2025',
+        dateTime: 'May 1, 2025',
         description: 'Vat Fee - XXXXXX4838',
         status: 'Success',
         amount_usd: -5.0
       },
       {
-        dateTime: 'April 24, 2025',
+        dateTime: 'May 1, 2025',
         description: 'Charges - XXXXXX6453',
         status: 'Success',
         amount_usd: -5.0
       },
       {
-        dateTime: 'April 24, 2025',
+        dateTime: 'May 1, 2025',
         description: 'Opening Balance - XXXXXX4838',
         status: 'Success',
         amount_usd: 10.0
